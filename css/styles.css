@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0 auto;
+	background:#a32902;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:12px;
+	}
+
+.clear{
+	clear:both;
+	}
+
+#container{
+	width:1000px;
+	background-color:#ebdecd;
+	margin:0 auto;
+	}
+	
+header{
+	width:1000px;
+	height:88px;
+	background-image:url(../images/menu_bg.jpg);
+	background-repeat:repeat-x;
+	position:relative;
+	}
+	
+#logo{
+	float:left;
+	}
+
+
+/*---upper-nav-starts---*/
+
+#upper-nav{
+	width:650px;
+	margin:3px;
+	float:left;
+	text-align:right;
+	}
+	
+#upper-nav li{
+	display:inline-block;
+	}
+	
+#upper-nav li a{
+	display:block;
+	padding:2px 20px;
+	
+	}
+
+/*---upper-nav-ends---*/
+
+/*---main-navigation-starts---*/
+
+#main-nav{
+	position:absolute;
+	margin:35px 0 0 270px;
+	z-index:1000;
+	}
+
+#main-nav li{
+	display:inline-block;
+	}
+	
+#main-nav li a{
+	display:block;
+	padding:11px 17px;
+	background-color:#a32902;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+	
+#main-nav li a:hover{
+	background-color:#b94713;
+	}
+	
+#main-nav li ul{
+	display:none;
+	}
+
+#main-nav li:hover ul{
+	display:block;
+	position:absolute;
+	margin-left:-40px;
+	}
+	
+#main-nav li ul li{
+	display:block;
+	text-align:left;
+	}
+	
+#main-nav li ul li a{
+	display:block;
+	padding:3px 17px;
+	background-color:#a32902;
+	color:#FFFFFF;
+	text-decoration:none;
+	}	
+	
+/*---main-navigation-ends---*/	
+	
+	
+#main-banner{
+	width:690px;
+	height:275px;
+	background-color:#ffffff;
+	margin:23px 0 0 23px;
+	float:left;
+	}
+
+	
+/*---slider-starts---*/
+
+#featured{ 
+	width:430px; 
+	padding-right:250px; 
+	position:relative; 
+	border:5px solid #ffffff; 
+	height:267px; 
+	background:#d3c4af;
+	}
+
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:5px; left:0px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:250px; 
+	}
+
+#featured ul.ui-tabs-nav li{ 
+	padding:2px 0; padding-right:13px;  
+	font-size:12px; 
+	color:#666; 
+	}
+
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+	}
+
+#featured ul.ui-tabs-nav li span{ 
+	font-size:12px;
+	font-family:Geneva, Arial, Helvetica, sans-serif; 
+	line-height:18px; 
+	}
+
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:60px; 
+	color:#333;
+	background-image:url(images/bg.jpg);
+	background-repeat:repeat-x;
+	line-height:20px;
+	}
+
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#a20417;
+	color:#FFFFFF; 
+	}
+
+#featured li.ui-tabs-selected{ 
+	background:url('images/selected-item.gif') top right no-repeat;  
+	}
+
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background-image:url(images/bg_roll.jpg);
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	}
+
+#featured .ui-tabs-panel{ 
+	width:400px; height:250px; 
+	left:260px;
+	background:#999; 
+	position:relative;
+	}
+
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:180px; left:0; 
+	height:70px; 
+	background: url('images/transparent-bg.png'); 
+	}
+
+#featured .info h2{ 
+	font-size:18px; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0;
+	overflow:hidden; 
+	}
+
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+	}
+
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+	}
+
+#featured .info a:hover{ 
+	text-decoration:underline; 
+	}
+
+#featured .ui-tabs-hide{ 
+	display:none; 
+	}
+
+.verdana {
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	COLOR: #000000;
+	text-align: JUSTIFY;	
+	}
+
+/*---slider-ends---*/	
+	
+	
+#box-banner{
+	width:270px;
+	height:282px;
+	background-image:url(../images/coffee-vending_bg.jpg);
+	background-color:#006699;
+	float:left;
+	margin:23px 0 0 11px;
+	}
+	
+#section-01{
+	background-color:#ffffff;
+	padding:0 5px;
+	}
+	
+#section-01 img{
+	float:left;
+	margin:5px 4px;
+	}
+
+#inside-article-01{
+	width:305px;
+	height:385px;
+	background-image:url(../images/box-bg.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	float:left;
+	margin:20px 0 20px 20px;
+	}
+	
+#inside-article-01 ul{
+	width:225px;
+	margin:43px 0 0 0;
+	}
+	
+#inside-article-01 ul li{
+	display:block;
+	}
+	
+#inside-article-01 ul li a{
+	display:block;
+	font-size:13px;
+	text-decoration:none;
+	line-height:15px;
+	margin:2px 0;
+	padding:4px 0 4px 10px;
+	background-color:#96825C;
+	color:#FFFFFF;
+	}
+	
+#inside-article-01 ul li a:hover{
+	background-color:#AE9C7B;
+	}
+	
+	
+#inside-article-02{
+	margin:22px 0 0 20px;
+	width:600px;
+	float:left;
+	line-height:17px;
+	}
+	
+#inside-article-02 h1{
+	font-size:21px;
+	color:#a32902;
+	}
+	
+#product-image{
+	float:left;
+	margin: 50px;
+	}
+	
+#inside-article-02 p{
+	color:#000000;
+	text-align:justify;
+	}
+	
+#specifications{
+	height:300px;
+	background-color:#a32902;
+	color:#FFFFFF;
+	font-size:14px;
+	clear:both;
+	margin:10px 0;
+	}
+	
+#specifications td{
+	background-color:#CCCCCC;
+	font-size:12px;
+	width:350px;
+	height:20px;
+	color:#000000;
+	padding-left:5px;
+	}	
+	
+#specifications td img{
+	margin: 5px 13px 0 10px;
+	}
+	
+#section-02{
+	height:263px;
+	background-color:#ebdecd;
+	margin:30px 0 0;
+	}
+	
+#section-02 article{
+	width:185px;
+	height:72px;
+	background-color:#009900;
+	float:left;
+	margin-left:4px;
+	padding:160px 30px 0 30px;
+	}
+	
+.button{
+	display:block;
+	width:50px;
+	padding:5px 10px;
+	background-color:#a32902;
+	text-align:center;
+	color:#F2CFB3;
+	text-decoration:none;
+	float:left;
+	}
+	
+.button:hover{
+	background-color:#C73403;
+	color:#5A1701;
+	}
+	
+#section-02 article p{
+	margin:0 0 7px 0;
+	font-size:10px;
+	line-height:11px;
+	}
+	
+footer{
+	height:200px;
+	background-image:url(../images/bg-footer.jpg);
+	background-repeat:repeat-x;
+	padding-top:3px;
+	}
+	
+#footer-table{
+	margin:20px auto 0;
+	font-size:11px;
+	}
+	
+#footer-table a{
+	text-decoration:none;
+	color:#F2CFB3;
+	}
+	
+#copyright{
+	margin:5px 15%;
+	text-align:right;
+	}
+	
+form{
+	width:450px;
+	height:350px;
+	margin:0 15px 0 60px;
+	text-align:left;
+	float:left;
+	padding:30px 0 0 20px;
+	}
+
+form label{
+	width:100px;
+	height:40px;
+	display:inline-block;
+/*	background-color:#99CC00;*/
+	}
+
